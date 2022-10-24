@@ -12,7 +12,7 @@ const colorValueRef = document.querySelector('span.color')
 changeBtnRef.addEventListener('click', onChangeBtnClick) 
 
 function onChangeBtnClick() {
-   let color = getRandomHexColor()
+  let color = getRandomHexColor()
   bodyRef.style.backgroundColor = color
   colorValueRef.textContent = color
 }
