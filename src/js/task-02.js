@@ -25,3 +25,21 @@ const elements = ingredients.map(ingredient => {
 ingredientsEl.append(...elements)
 
 console.log(ingredientsEl)
+
+
+
+// const makeIngredientsList = ingredients => {
+//   return ingredients.map(ingredient => {
+//     const liEl = document.createElement('li')
+//     liEl.classList.add('item')
+//     liEl.textContent = ingredient
+
+//     return liEl
+//   })
+// }
+
+// const elements = makeIngredientsList(ingredients)
+
+
+
+

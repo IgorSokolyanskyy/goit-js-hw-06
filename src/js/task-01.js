@@ -18,5 +18,4 @@ categoriesItemsEl.forEach(item => {
 //      console.log(childrenItem.h1.textContent)
 //   })
 // }
-
 // inputListDataToConsole()
